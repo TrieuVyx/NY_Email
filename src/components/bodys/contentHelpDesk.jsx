@@ -28,7 +28,7 @@ export default function helpDesk() {
                         textAlign: "left"
                     }}
                 >Leave Date Info</h1></div>
-                <div classNameName="buttonHelpDesk"
+                <div className="buttonHelpDesk"
                     style={{
                         textAlign: "left",
                         margin: "5px 10px 5px 10px",
@@ -42,7 +42,7 @@ export default function helpDesk() {
                         border: "none",
                         background: "none",
                         cursor: "pointer"
-                    }}><i classNameName="fa-solid fa-plus"></i>Create leave form</button>
+                    }}><i className="fa-solid fa-plus"></i>Create leave form</button>
                     <button
                         style={{
                             padding: "5px",
@@ -51,12 +51,12 @@ export default function helpDesk() {
                             background: "none",
                             cursor: "pointer"
                         }}
-                    ><i classNameName="fa-solid fa-plus"
+                    ><i className="fa-solid fa-plus"
 
                     ></i>List form</button>
                 </div>
 
-                <div classNameName="tableHelpDesk"
+                <div className="tableHelpDesk"
                     style={{
                         margin: "5px 10px 5px 10px"
                     }}>
@@ -70,28 +70,36 @@ export default function helpDesk() {
                                 color: "white"
                             }}>
                                 <th style={{
-                                    padding: "5px"
+                                    padding: "5px",
+                                    textAlign:"center"
                                 }}>#</th>
                                 <th style={{
-                                    padding: "5px"
+                                    padding: "5px",
+                                    textAlign:"center"
                                 }}>Reason list</th>
                                 <th style={{
-                                    padding: "5px"
+                                    padding: "5px",
+                                    textAlign:"center"
                                 }}>Old year</th>
                                 <th style={{
-                                    padding: "5px"
+                                    padding: "5px",
+                                    textAlign:"center"
                                 }}>Advance leave</th>
                                 <th style={{
-                                    padding: "5px"
+                                    padding: "5px",
+                                    textAlign:"center"
                                 }}>Leave day</th>
                                 <th style={{
-                                    padding: "5px"
+                                    padding: "5px",
+                                    textAlign:"center"
                                 }}>Total</th>
                                 <th style={{
-                                    padding: "5px"
+                                    padding: "5px",
+                                    textAlign:"center"
                                 }}>Used</th>
                                 <th style={{
-                                    padding: "5px"
+                                    padding: "5px",
+                                    textAlign:"center"
                                 }}>Balance</th>
 
 
