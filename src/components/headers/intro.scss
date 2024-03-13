@@ -1,0 +1,30 @@
+.introBar{
+    margin: 10px;
+    background-color:white;
+    border-radius: 10px;
+    margin: 10px 24px 10px 24px;
+    font-family: bold;
+    .introBarNav{
+
+        .introBarUl{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style-type: none;
+            margin-bottom: 0;
+            padding: 10px;
+            .introBarLi{
+                margin: 0 10px 0 10px;
+                border-right: 1px solid ;
+                padding-right: 10px;
+                cursor: pointer;
+            }
+            .introBarLi:last-child{
+                border-right:0;
+            }
+        }
+    }
+}
+.ant-layout{
+    background: none;
+}
